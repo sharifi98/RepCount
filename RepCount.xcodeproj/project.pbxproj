@@ -11,6 +11,9 @@
 		0396B32F2A1C1B7E00E24BE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B32E2A1C1B7E00E24BE6 /* ContentView.swift */; };
 		0396B3312A1C1B7F00E24BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0396B3302A1C1B7F00E24BE6 /* Assets.xcassets */; };
 		0396B3342A1C1B7F00E24BE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0396B3332A1C1B7F00E24BE6 /* Preview Assets.xcassets */; };
+		0396B33B2A1C1F2100E24BE6 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B33A2A1C1F2100E24BE6 /* LogView.swift */; };
+		0396B33D2A1C1FB200E24BE6 /* RoutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B33C2A1C1FB200E24BE6 /* RoutineView.swift */; };
+		0396B33F2A1C219D00E24BE6 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0396B33E2A1C219D00E24BE6 /* StatisticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		0396B32E2A1C1B7E00E24BE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0396B3302A1C1B7F00E24BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0396B3332A1C1B7F00E24BE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0396B33A2A1C1F2100E24BE6 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		0396B33C2A1C1FB200E24BE6 /* RoutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineView.swift; sourceTree = "<group>"; };
+		0396B33E2A1C219D00E24BE6 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				0396B32C2A1C1B7E00E24BE6 /* RepCountApp.swift */,
 				0396B32E2A1C1B7E00E24BE6 /* ContentView.swift */,
+				0396B33A2A1C1F2100E24BE6 /* LogView.swift */,
+				0396B33E2A1C219D00E24BE6 /* StatisticView.swift */,
+				0396B33C2A1C1FB200E24BE6 /* RoutineView.swift */,
 				0396B3302A1C1B7F00E24BE6 /* Assets.xcassets */,
 				0396B3322A1C1B7F00E24BE6 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0396B32F2A1C1B7E00E24BE6 /* ContentView.swift in Sources */,
+				0396B33F2A1C219D00E24BE6 /* StatisticView.swift in Sources */,
+				0396B33D2A1C1FB200E24BE6 /* RoutineView.swift in Sources */,
+				0396B33B2A1C1F2100E24BE6 /* LogView.swift in Sources */,
 				0396B32D2A1C1B7E00E24BE6 /* RepCountApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

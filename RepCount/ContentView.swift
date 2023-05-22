@@ -1,21 +1,52 @@
-//
-//  ContentView.swift
-//  RepCount
-//
-//  Created by Hossein Sharifi on 22/05/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selection = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView(selection: $selection) {
+            NavigationView {
+                LogView()
+                    .navigationTitle("Log")
+                    
+            }
+            .tabItem {
+                VStack {
+                    Image(systemName: "note.text")
+                    Text("Log").font(.largeTitle)
+                }}
+            .tag(0)
+            
+            NavigationView {
+                RoutineView()
+            }
+            .tabItem {
+                VStack {
+                    Image(systemName: "figure.strengthtraining.traditional")
+                    Text("Routines")
+                        .font(.caption)
+                }}
+            .tag(1)
+            
+            NavigationView {
+                StatisticView()
+            }
+            .tabItem {
+                Text("Statistics")
+                    .font(.caption)
+            }
+            .tag(2)
+            
+            NavigationView {
+                StatisticView()
+            }
+            .tabItem {
+                Text("Statistics")
+                    .font(.caption)
+            }
+            .tag(3)
         }
-        .padding()
     }
 }
 
